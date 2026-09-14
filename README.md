@@ -23,7 +23,23 @@ There is no React, database, telemetry, remote service, or large runtime depende
 
 ## Screenshots
 
-No screenshots are committed yet. Run the app locally to view the Overview, Config files, and Controls screens.
+The interface is designed for a dark terminal-inspired desktop and remains usable on narrow screens.
+
+### Overview on mobile
+
+![RiceHub overview on a mobile-width viewport](docs/screenshots/overview-mobile.png)
+
+### Config browser
+
+![RiceHub config browser](docs/screenshots/config-browser.png)
+
+### Editor diff review
+
+![RiceHub editor diff review](docs/screenshots/editor-review.png)
+
+### System controls
+
+![RiceHub system controls](docs/screenshots/controls.png)
 
 ## Architecture
 

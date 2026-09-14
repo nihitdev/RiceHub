@@ -15,6 +15,7 @@
   <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/frontend-TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white&labelColor=1e1e2e" alt="TypeScript" /></a>
   <a href="https://vite.dev/"><img src="https://img.shields.io/badge/bundler-Vite-646cff?style=flat-square&logo=vite&logoColor=white&labelColor=1e1e2e" alt="Vite" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-a6e3a1?style=flat-square&labelColor=1e1e2e" alt="Apache License 2.0" /></a>
+  <a href="https://ricehub-alpha.vercel.app/"><img src="https://img.shields.io/badge/live%20site-ricehub--alpha.vercel.app-f5c2e7?style=flat-square&labelColor=1e1e2e" alt="Live site" /></a>
 </p>
 
 <p><code>127.0.0.1</code> only · no telemetry · no database · no React</p>
@@ -24,6 +25,8 @@
 <br />
 
 RiceHub is a small local web interface for the Linux setup you made your own. It reads real host data, discovers `~/.config`, lets you review config diffs before saving, and exposes useful desktop controls without requiring a specific distribution or window manager.
+
+**Try the website:** [ricehub-alpha.vercel.app](https://ricehub-alpha.vercel.app/)
 
 ## What it does
 

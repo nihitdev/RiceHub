@@ -1,0 +1,35 @@
+# Zig
+.zig-cache/
+zig-out/
+backend/.zig-cache/
+backend/zig-out/
+
+# Node / Vite
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+*.tsbuildinfo
+
+# Editors and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local runtime output and temporary data
+.artifacts/
+tmp/
+temp/
+*.log
+*.tmp
+*.bak
+*.backup
+.ricehub-backup-*
+
+# Test-generated data and local fixtures
+backend/tests/.tmp/
+backend/tests/fixtures/.runtime/
+*.jsonl

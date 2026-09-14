@@ -6,6 +6,7 @@
 [![Zig 0.16](https://img.shields.io/badge/backend-Zig%200.16-f7a41d?logo=zig&logoColor=white)](https://ziglang.org/)
 [![TypeScript](https://img.shields.io/badge/frontend-TypeScript-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/bundler-Vite-646cff?logo=vite&logoColor=white)](https://vite.dev/)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-a6e3a1.svg)](LICENSE)
 
 RiceHub is a lightweight dashboard for inspecting and controlling a Linux desktop from a browser on the same machine. It reads real host data, discovers your `~/.config` tree, and keeps optional desktop integrations available without making them requirements. It is designed for Arch and Omarchy, while remaining useful on other Linux distributions, window managers, and desktop environments.
 
@@ -174,3 +175,7 @@ Any process running as your user can access the loopback API. Keep the service s
 ## Contributing
 
 Issues and focused pull requests are welcome. Keep backend and frontend changes small, preserve the localhost-only safety model, add fixture coverage for new actions, and run the full verification commands before opening a pull request.
+
+## License
+
+RiceHub is licensed under the [Apache License 2.0](LICENSE).

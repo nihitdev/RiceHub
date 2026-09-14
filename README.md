@@ -49,6 +49,16 @@ RiceHub is a small local web interface for the Linux setup you made your own. It
 
 <p align="center"><sub>Review every change before it reaches your configuration.</sub></p>
 
+## Project website
+
+The static project website lives in [`site/`](site/). Preview it locally with:
+
+```sh
+python3 -m http.server 4174 --directory site
+```
+
+It can be published directly as a static site and has no additional build step.
+
 ## Why it feels fast
 
 - A Zig backend with direct Linux file reads and bounded standard-library commands.
